@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Exercising\" />
+    <Folder Include="Exercising\Models\Exercises\" />
+    <Folder Include="Exercising\Models\Instructors\" />
+    <Folder Include="Exercising\Events\Instructor\" />
+    <Folder Include="Exercising\Factories\Exercises\" />
+    <Folder Include="Exercising\Factories\Instructors\" />
+    <Folder Include="Exercising\Specifications\Exercises\" />
+    <Folder Include="Exercising\Specifications\Instructors\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="31.0.2" />
+    <PackageReference Include="FakeItEasy" Version="6.2.1" />
+    <PackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.0.0" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.8" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="Scrutor" Version="3.2.2" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.8" />
+    <PackageReference Include="FluentValidation" Version="8.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FitMe.Domain\FitMe.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exrercising\" />
+    <Folder Include="Exrercising\Exercises\" />
+    <Folder Include="Exrercising\Exercises\Commands\" />
+    <Folder Include="Exrercising\Exercises\Queries\" />
+    <Folder Include="Exrercising\Exercises\Commands\Common\" />
+    <Folder Include="Exrercising\Instructors\" />
+    <Folder Include="Exrercising\Exercises\Commands\Create\" />
+    <Folder Include="Exrercising\Exercises\Queries\Common\" />
+    <Folder Include="Exrercising\Exercises\Commands\Delete\" />
+    <Folder Include="Exrercising\Exercises\Commands\Edit\" />
+    <Folder Include="Exrercising\Exercises\Queries\Muscle\" />
+    <Folder Include="Exrercising\Exercises\Queries\Details\" />
+    <Folder Include="Exrercising\Instructors\Commands\" />
+    <Folder Include="Exrercising\Instructors\Commands\Edit\" />
+    <Folder Include="Exrercising\Instructors\Queries\" />
+    <Folder Include="Exrercising\Instructors\Queries\Common\" />
+    <Folder Include="Exrercising\Instructors\Queries\Details\" />
+    <Folder Include="Exrercising\Exercises\Queries\Search\" />
+  </ItemGroup>
+</Project>
