@@ -5,7 +5,7 @@
 
     using static ModelConstants.Common;
 
-    public class Muscle : ValueObject
+    public class Muscle : Entity<int>
     {
         internal Muscle(string name, string description, MuscleGroup muscleGroup)
         {

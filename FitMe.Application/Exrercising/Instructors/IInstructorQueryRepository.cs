@@ -12,7 +12,7 @@
     {
         Task<InstructorDetailsOutputModel> GetDetails(int id, CancellationToken cancellationToken = default);
 
-        Task<InstructorOutputModel> GetDetailsByExerciseId(int carAdId, CancellationToken cancellationToken = default);
+        Task<InstructorOutputModel> GetDetailsByExerciseId(int exerciseId, CancellationToken cancellationToken = default);
 
     }
 }

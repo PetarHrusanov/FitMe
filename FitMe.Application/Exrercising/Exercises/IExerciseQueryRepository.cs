@@ -15,8 +15,8 @@
     public interface IExerciseQueryRepository : IQueryRepository<Exercise>
     {
         Task<IEnumerable<TOutputModel>> GetExercisesListings<TOutputModel>(
-            Specification<Exercise> carAdSpecification,
-            Specification<Instructor> dealerSpecification,
+            Specification<Exercise> exerciseSpecification,
+            Specification<Instructor> instructorSpecification,
             ExercisesSortOrder exercisesSortOrder,
             int skip = 0,
             int take = int.MaxValue,
@@ -24,12 +24,13 @@
 
         Task<ExerciseDetailsOutputModel> GetDetails(int id, CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<GetExerciseMuscleQuery>> GetExercisesMusces(
+        Task<IEnumerable<GetExerciseMuscleQuery>> GetExercisesMuscle(
+            string muscleName,
             CancellationToken cancellationToken = default);
 
         Task<int> Total(
-            Specification<Exercise> carAdSpecification,
-            Specification<Instructor> dealerSpecification,
+            Specification<Exercise> exerciseSpecification,
+            Specification<Instructor> instructorSpecification,
             CancellationToken cancellationToken = default);
     }
 }

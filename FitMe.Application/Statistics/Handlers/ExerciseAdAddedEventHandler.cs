@@ -2,16 +2,16 @@
 {
     using System.Threading.Tasks;
     using Common;
-    using Domain.Dealerships.Events.Dealers;
+    using FitMe.Domain.Exercising.Events.Instructor;
 
-    public class ExerciseAdAddedEventHandler : IEventHandler<CarAdAddedEvent>
+    public class ExerciseAdAddedEventHandler : IEventHandler<ExerciseAddedEvent>
     {
         private readonly IStatisticsRepository statistics;
 
         public ExerciseAdAddedEventHandler(IStatisticsRepository statistics) 
             => this.statistics = statistics;
 
-        public Task Handle(CarAdAddedEvent domainEvent)
+        public Task Handle(ExerciseAddedEvent domainEvent)
             => this.statistics.IncrementCarAds();
     }
 }

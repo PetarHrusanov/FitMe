@@ -6,13 +6,13 @@
     // Really taking a cheap copy shot on this one due to lack of time
     public class ExerciseView : Entity<int>
     {
-        internal ExerciseView(int carAdId, string? userId)
+        internal ExerciseView(int exerciseId, string? userId)
         {
-            this.CarAdId = carAdId;
+            this.ExerciseId = exerciseId;
             this.UserId = userId;
         }
 
-        public int CarAdId { get; }
+        public int ExerciseId { get; }
 
         public string? UserId { get; }
     }

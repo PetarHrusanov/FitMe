@@ -32,5 +32,6 @@
     <Folder Include="Exrercising\Instructors\Queries\Common\" />
     <Folder Include="Exrercising\Instructors\Queries\Details\" />
     <Folder Include="Exrercising\Exercises\Queries\Search\" />
+    <Folder Include="Statistics\Queries\ExerciseViews\" />
   </ItemGroup>
 </Project>

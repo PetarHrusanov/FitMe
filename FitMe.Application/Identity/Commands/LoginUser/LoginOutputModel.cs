@@ -2,13 +2,13 @@
 {
     public class LoginOutputModel
     {
-        public LoginOutputModel(string token, int dealerId)
+        public LoginOutputModel(string token, int instructorId)
         {
             this.Token = token;
-            this.DealerId = dealerId;
+            this.InstructorId = instructorId;
         }
 
-        public int DealerId { get; }
+        public int InstructorId { get; }
 
         public string Token { get; }
     }

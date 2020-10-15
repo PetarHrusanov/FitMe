@@ -1,4 +1,4 @@
-﻿namespace CarRentalSystem.Application
+﻿namespace FitMe.Application
 {
     using System.Reflection;
     using AutoMapper;

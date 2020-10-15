@@ -8,19 +8,19 @@
 
     public class GetExerciseMusclesQuery : IRequest<IEnumerable<GetExerciseMuscleQuery>>
     {
-        public class GetCarAdCategoriesQueryHandler : IRequestHandler<
+        public class GetExerciseMuscleQueryHandler : IRequestHandler<
             GetExerciseMusclesQuery,
             IEnumerable<GetExerciseMuscleQuery>>
         {
             private readonly IExerciseQueryRepository exerciseRepository;
 
-            public GetExerciseMusclesQuery(IExerciseQueryRepository exerciseRepositor)
-                => this.exerciseRepositor = exerciseRepositor;
+            public GetExerciseMuscleQueryHandler(IExerciseQueryRepository exerciseRepository)
+                => this.exerciseRepository = exerciseRepository;
 
             public async Task<IEnumerable<GetExerciseMuscleQuery>> Handle(
                 GetExerciseMusclesQuery request,
                 CancellationToken cancellationToken)
-                => await this.exerciseRepository.GetCarAdCategories(cancellationToken);
+                => await this.exerciseRepository.GetExercisesMuscle(cancellationToken);
         }
     }
 }

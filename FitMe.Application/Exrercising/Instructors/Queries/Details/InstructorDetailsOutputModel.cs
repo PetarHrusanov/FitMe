@@ -8,13 +8,13 @@
     public class InstructorDetailsOutputModel : InstructorOutputModel
     {
 
-        public int TotalCarAds { get; private set; }
+        public int TotalExercises { get; private set; }
 
         public override void Mapping(Profile mapper)
             => mapper
                 .CreateMap<Instructor, InstructorDetailsOutputModel>()
                 .IncludeBase<Instructor, InstructorOutputModel>()
-                .ForMember(d => d.TotalCarAds, cfg => cfg
+                .ForMember(d => d.TotalExercises, cfg => cfg
                     .MapFrom(d => d.Exercises.Count));
     }
 }

@@ -3,30 +3,35 @@
     using System.Threading;
     using System.Threading.Tasks;
     using Common;
-    using Dealerships.Dealers;
-    using Domain.Dealerships.Factories.Dealers;
+    using FitMe.Application.Exrercising.Instructors;
+    using FitMe.Domain.Exercising.Factories.Instructors;
+    using FitMe.Domain.Exercising.Repositories;
     using MediatR;
 
     public class CreateUserCommand : UserInputModel, IRequest<Result>
     {
         public string Name { get; set; } = default!;
 
+        public string Description { get; set; } = default!;
+
         public string PhoneNumber { get; set; } = default!;
 
         public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Result>
         {
             private readonly IIdentity identity;
-            private readonly IDealerFactory dealerFactory;
-            private readonly IDealerQueryRepository dealerRepository;
+
+            private readonly IInstructorFactory instructorFactory;
+            private readonly IInstructorDomainRepository instructorRepository;
+
 
             public CreateUserCommandHandler(
-                IIdentity identity, 
-                IDealerFactory dealerFactory, 
-                IDealerQueryRepository dealerRepository)
+                IIdentity identity,
+                IInstructorFactory instructorFactory,
+                IInstructorDomainRepository instructorRepository)
             {
                 this.identity = identity;
-                this.dealerFactory = dealerFactory;
-                this.dealerRepository = dealerRepository;
+                this.instructorFactory = instructorFactory;
+                this.instructorRepository = instructorRepository;
             }
 
             public async Task<Result> Handle(
@@ -42,14 +47,15 @@
 
                 var user = result.Data;
 
-                var dealer = this.dealerFactory
+                var instructor = this.instructorFactory
                     .WithName(request.Name)
+                    .WithDescription(request.Description)
                     .WithPhoneNumber(request.PhoneNumber)
                     .Build();
 
-                user.BecomeDealer(dealer);
+                user.BecomeIsntructor(instructor);
 
-                await this.dealerRepository.Save(dealer, cancellationToken);
+                await this.instructorRepository.Save(instructor, cancellationToken);
 
                 return result;
             }

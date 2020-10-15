@@ -3,7 +3,7 @@
     using System.Threading;
     using System.Threading.Tasks;
     using Common;
-    using Dealerships.Dealers;
+    using FitMe.Domain.Exercising.Repositories;
     using MediatR;
 
     public class LoginUserCommand : UserInputModel, IRequest<Result<LoginOutputModel>>
@@ -11,14 +11,14 @@
         public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, Result<LoginOutputModel>>
         {
             private readonly IIdentity identity;
-            private readonly IDealerQueryRepository dealerRepository;
+            private readonly IInstructorDomainRepository instructorRepostiory;
 
             public LoginUserCommandHandler(
-                IIdentity identity, 
-                IDealerQueryRepository dealerRepository)
+                IIdentity identity,
+                IInstructorDomainRepository instructorRepostiory)
             {
                 this.identity = identity;
-                this.dealerRepository = dealerRepository;
+                this.instructorRepostiory = instructorRepostiory;
             }
 
             public async Task<Result<LoginOutputModel>> Handle(
@@ -34,7 +34,7 @@
 
                 var user = result.Data;
 
-                var dealerId = await this.dealerRepository.GetDealerId(user.UserId, cancellationToken);
+                var dealerId = await this.instructorRepostiory.GetInstructorId(user.UserId, cancellationToken);
 
                 return new LoginOutputModel(user.Token, dealerId);
             }

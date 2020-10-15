@@ -1,9 +1,8 @@
-﻿namespace CarRentalSystem.Application.Statistics
+﻿namespace FitMe.Application.Statistics
 {
     using System.Threading;
     using System.Threading.Tasks;
     using Common.Contracts;
-    using Domain.Common;
     using Domain.Statistics.Models;
     using Queries.Current;
 
@@ -11,8 +10,8 @@
     {
         Task<GetCurrentStatisticsOutputModel> GetCurrent(CancellationToken cancellationToken = default);
 
-        Task<int> GetCarAdViews(int carAdId, CancellationToken cancellationToken = default);
+        Task<int> GetExerciseViews(int exerciseId, CancellationToken cancellationToken = default);
 
-        Task IncrementCarAds(CancellationToken cancellationToken = default);
+        Task IncrementExercises(CancellationToken cancellationToken = default);
     }
 }

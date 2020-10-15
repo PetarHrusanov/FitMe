@@ -1,9 +1,9 @@
 ﻿namespace FitMe.Application.Identity
 {
-    using Domain.Dealerships.Models.Dealers;
+    using FitMe.Domain.Exercising.Models.Instructors;
 
     public interface IUser
     {
-        void BecomeDealer(Dealer dealer);
+        void BecomeInstructor(Instructor instructor);
     }
 }

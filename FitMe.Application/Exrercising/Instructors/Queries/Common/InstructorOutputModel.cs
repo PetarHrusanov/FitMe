@@ -11,6 +11,8 @@
 
         public string Name { get; private set; } = default!;
 
+        public string Description { get; private set; } = default!;
+
         public string PhoneNumber { get; private set; } = default!;
 
         public virtual void Mapping(Profile mapper)

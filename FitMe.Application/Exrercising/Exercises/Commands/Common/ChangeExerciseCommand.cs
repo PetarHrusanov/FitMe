@@ -13,7 +13,7 @@
         public static async Task<Result> InstructorHasExercise(
             this ICurrentUser currentUser,
             IInstructorDomainRepository instructorRepository,
-            int carAdId,
+            int exerciseId,
             CancellationToken cancellationToken)
         {
             var instructorId = await instructorRepository.GetInstructorId(
@@ -22,12 +22,12 @@
 
             var instructorHasExercise = await instructorRepository.HasExercise(
                 instructorId,
-                carAdId,
+                exerciseId,
                 cancellationToken);
 
             return instructorHasExercise
                 ? Result.Success
-                : "You cannot edit this car ad.";
+                : "You cannot edit this exercise.";
         }
     }
 }

@@ -1,8 +1,9 @@
 ﻿namespace FitMe.Application.Identity.Commands.CreateUser
 {
     using FluentValidation;
-    using static Domain.Dealerships.Models.ModelConstants.Common;
-    using static Domain.Dealerships.Models.ModelConstants.PhoneNumber;
+    
+    using static Domain.Exercising.Models.ModelConstants.PhoneNumber;
+    using static Domain.Exercising.Models.ModelConstants.Common;
 
     public class CreateUserCommandValidator : AbstractValidator<CreateUserCommand>
     {

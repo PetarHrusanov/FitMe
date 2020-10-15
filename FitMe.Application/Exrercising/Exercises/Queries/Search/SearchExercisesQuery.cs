@@ -21,7 +21,7 @@
                 SearchExercisesQuery request,
                 CancellationToken cancellationToken)
             {
-                var exerciseListings = await base.GetCarAdListings<ExerciseOutputModel>(
+                var exerciseListings = await base.GetExercisesListings<ExerciseOutputModel>(
                     request,
                     cancellationToken: cancellationToken);
 

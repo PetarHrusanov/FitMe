@@ -1,4 +1,4 @@
-﻿namespace CarRentalSystem.Application.Statistics.Queries.Current
+﻿namespace FitMe.Application.Statistics.Queries.Current
 {
     using System.Threading;
     using System.Threading.Tasks;

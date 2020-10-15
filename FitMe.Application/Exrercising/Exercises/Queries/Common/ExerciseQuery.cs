@@ -1,5 +1,4 @@
-﻿using System;
-namespace FitMe.Application.Exrercising.Exercises.Queries.Common
+﻿namespace FitMe.Application.Exrercising.Exercises.Queries.Common
 {
     //ExerciseQuery
 
@@ -8,10 +7,7 @@ namespace FitMe.Application.Exrercising.Exercises.Queries.Common
     using System.Threading;
     using System.Threading.Tasks;
     using Domain.Common;
-    using Domain.Dealerships.Models.CarAds;
-    using Domain.Dealerships.Models.Dealers;
-    using Domain.Dealerships.Specifications.CarAds;
-    using Domain.Dealerships.Specifications.Dealers;
+
     using FitMe.Domain.Exercising.Models.Exercises;
     using FitMe.Domain.Exercising.Models.Instructors;
     using FitMe.Domain.Exercising.Specifications.Exercises;
@@ -40,13 +36,13 @@ namespace FitMe.Application.Exrercising.Exercises.Queries.Common
             protected ExercisesQueryHandler(IExerciseQueryRepository exerciseRepository)
                 => this.exerciseRepository = exerciseRepository;
 
-            protected async Task<IEnumerable<TOutputModel>> GetCarAdListings<TOutputModel>(
+            protected async Task<IEnumerable<TOutputModel>> GetExercisesListings<TOutputModel>(
                 ExerciseQuery request,
-                bool onlyAvailable = true,
+                //bool onlyAvailable = true,
                 int? dealerId = default,
                 CancellationToken cancellationToken = default)
             {
-                var carAdSpecification = this.GetExerciseSpecification(request, onlyAvailable);
+                var carAdSpecification = this.GetExerciseSpecification(request);
 
                 var dealerSpecification = this.GetInstructorSpecification(request, dealerId);
 
@@ -54,34 +50,34 @@ namespace FitMe.Application.Exrercising.Exercises.Queries.Common
 
                 var skip = (request.Page - 1) * ExercisesPerPage;
 
-                return await this.exerciseRepository.GetCarAdListings<TOutputModel>(
+                return await this.exerciseRepository.GetExercisesListings<TOutputModel>(
                     carAdSpecification,
                     dealerSpecification,
                     searchOrder,
                     skip,
-                    take: CarAdsPerPage,
+                    take: ExercisesPerPage,
                     cancellationToken);
             }
 
             protected async Task<int> GetTotalPages(
-                CarAdsQuery request,
+                ExerciseQuery request,
                 bool onlyAvailable = true,
                 int? dealerId = default,
                 CancellationToken cancellationToken = default)
             {
-                var carAdSpecification = this.GetCarAdSpecification(request, onlyAvailable);
+                var exerciseSpecification = this.GetExerciseSpecification(request);
 
-                var dealerSpecification = this.GetDealerSpecification(request, dealerId);
+                var dealerSpecification = this.GetInstructorSpecification(request, dealerId);
 
-                var totalCarAds = await this.carAdRepository.Total(
-                    carAdSpecification,
+                var totalCarAds = await this.exerciseRepository.Total(
+                    exerciseSpecification,
                     dealerSpecification,
                     cancellationToken);
 
-                return (int)Math.Ceiling((double)totalCarAds / CarAdsPerPage);
+                return (int)Math.Ceiling((double)totalCarAds / ExercisesPerPage);
             }
 
-            private Specification<Exercise> GetExerciseSpecification(ExerciseQuery request, bool onlyAvailable)
+            private Specification<Exercise> GetExerciseSpecification(ExerciseQuery request)
                 => new ExerciseByMuscleSpecification(request.Muscle)
                     .And(new ExerciseByComplexitySpecification(request.Complexity));
                    
