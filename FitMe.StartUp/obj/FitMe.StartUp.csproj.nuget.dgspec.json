@@ -4,6 +4,269 @@
     "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.StartUp/FitMe.StartUp.csproj": {}
   },
   "projects": {
+    "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj",
+        "projectName": "FitMe.Application",
+        "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj",
+        "packagesPath": "/Users/Petar/.nuget/packages/",
+        "outputPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Petar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj",
+        "projectName": "FitMe.Domain",
+        "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj",
+        "packagesPath": "/Users/Petar/.nuget/packages/",
+        "outputPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Petar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[29.0.2, )"
+            },
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "FakeItEasy.Analyzer.CSharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Infrastructure/FitMe.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Infrastructure/FitMe.Infrastructure.csproj",
+        "projectName": "FitMe.Infrastructure",
+        "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Infrastructure/FitMe.Infrastructure.csproj",
+        "packagesPath": "/Users/Petar/.nuget/packages/",
+        "outputPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Petar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj"
+              },
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.StartUp/FitMe.StartUp.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,10 +290,24 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj"
+              },
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/FitMe.Domain.csproj"
+              },
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Infrastructure/FitMe.Infrastructure.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Infrastructure/FitMe.Infrastructure.csproj"
+              },
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/FitMe.Web.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/FitMe.Web.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -38,6 +315,109 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "MyTested.AspNetCore.Mvc.Universe": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/FitMe.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/FitMe.Web.csproj",
+        "projectName": "FitMe.Web",
+        "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/FitMe.Web.csproj",
+        "packagesPath": "/Users/Petar/.nuget/packages/",
+        "outputPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Petar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj": {
+                "projectPath": "/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/FitMe.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

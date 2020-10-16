@@ -20,32 +20,33 @@
           "/Users/Petar/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Bogus": {
               "target": "Package",
-              "version": "[31.0.2, )"
+              "version": "[29.0.2, )"
             },
             "FakeItEasy": {
               "target": "Package",
-              "version": "[6.2.1, )"
+              "version": "[6.0.1, )"
             },
             "FakeItEasy.Analyzer.CSharp": {
               "target": "Package",
@@ -57,7 +58,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -65,17 +66,15 @@
             },
             "Scrutor": {
               "target": "Package",
-              "version": "[3.2.2, )"
+              "version": "[3.2.1, )"
             },
             "xunit": {
               "target": "Package",
               "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
@@ -89,7 +88,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },

@@ -12,8 +12,6 @@
 
         DbSet<Muscle> Muscles { get; }
 
-        //DbSet<Manufacturer> Manufacturers { get; }
-
         DbSet<Instructor> Instructors { get; }
 
         DbSet<User> Users { get; } // TODO: Temporary workaround

@@ -21,7 +21,7 @@
 
         public string? Instructor { get; set; }
 
-        public Complexity Complexity { get; set; }
+        public Complexity? Complexity { get; set; }
 
         public string? SortBy { get; set; }
 

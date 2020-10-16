@@ -1,23 +1,66 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{41F6AEFE-A2E0-40EE-BF7A-2C82AADA9BC9}|FitMe">
+  <MonoDevelop.Ide.ItemProperties.FitMe.Domain PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FitMe.StartUp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FitMe.StartUp/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FitMe.Application/ApplicationConfiguration.cs">
     <Files>
-      <File FileName="FitMe.Web/Features/ExercisesController.cs" Line="62" Column="22" />
-      <File FileName="FitMe.Infrastructure/Exercise/Repositories/ExerciseRepository.cs" Line="110" Column="35" />
-      <File FileName="FitMe.Web/FitMe.Web.csproj" Line="16" Column="55" />
-      <File FileName="FitMe.StartUp/Startup.cs" Line="1" Column="1" />
-      <File FileName="FitMe.StartUp/Program.cs" Line="1" Column="1" />
+      <File FileName="FitMe.Application/Exrercising/Exercises/Queries/Common/ExerciseQuery.cs" Line="82" Column="52" />
+      <File FileName="FitMe.Domain/Exercising/Specifications/Exercises/ExerciseByMuscleSpecification.cs" />
+      <File FileName="FitMe.Domain/Exercising/Specifications/Exercises/ExerciseByComplexitySpecification.cs" />
+      <File FileName="FitMe.Infrastructure/InfrastructureConfiguration.cs" />
+      <File FileName="FitMe.StartUp/Properties/launchSettings.json" />
+      <File FileName="FitMe.StartUp/testsettings.json" />
+      <File FileName="FitMe.StartUp/appsettings.json" />
+      <File FileName="FitMe.StartUp/appsettings.Development.json" />
+      <File FileName="FitMe.StartUp/Program.cs" />
+      <File FileName="FitMe.Infrastructure/Common/IInitializer.cs" />
+      <File FileName="FitMe.Infrastructure/Common/QueryableExtensions.cs" />
+      <File FileName="FitMe.Infrastructure/Exercise/Configuration/ExerciseConfiguration.cs" />
+      <File FileName="FitMe.Infrastructure/Exercise/Configuration/InstructorConfiguration.cs" />
+      <File FileName="FitMe.Infrastructure/Exercise/Configuration/MuscleConfiguration.cs" />
+      <File FileName="FitMe.Infrastructure/Exercise/Repositories/ExerciseRepository.cs" />
+      <File FileName="FitMe.Infrastructure/Exercise/Repositories/InstructorRepository.cs" />
+      <File FileName="FitMe.Infrastructure/Exercise/IExerciseDbContext.cs" />
+      <File FileName="FitMe.Infrastructure/Common/Persistence/DatabaseInitializer.cs" />
+      <File FileName="FitMe.Infrastructure/Common/Persistence/ExerciseDbContext.cs" />
+      <File FileName="FitMe.StartUp/Startup.cs" />
+      <File FileName="FitMe.StartUp/ApplicationInitialization.cs" />
+      <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="FitMe.Web/WebConfiguration.cs" />
+      <File FileName="FitMe.Web/ApiController.cs" />
+      <File FileName="FitMe.Web/Common/ResultExtensions.cs" />
+      <File FileName="FitMe.Web/Features/ExercisesController.cs" />
+      <File FileName="FitMe.Web/Features/IdentityController.cs" />
+      <File FileName="FitMe.Web/Features/InstructorsController.cs" />
+      <File FileName="FitMe.Web/Middleware/ValidationExceptionHandlerMiddleware.cs" />
+      <File FileName="FitMe.Web/Services/CurrentUserService.cs" />
+      <File FileName="FitMe.Web/mono_crash.11a6748113.0.json" />
+      <File FileName="FitMe.StartUp/Models/ErrorViewModel.cs" />
+      <File FileName="FitMe.StartUp/Controllers/HomeController.cs" />
+      <File FileName="FitMe.Domain/DomainConfiguration.cs" />
+      <File FileName="FitMe.Application/ApplicationConfiguration.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FitMe" expanded="True" />
+          <Node name="FitMe" expanded="True">
+            <Node name="FitMe.Application" expanded="True">
+              <Node name="ApplicationConfiguration.cs" selected="True" />
+            </Node>
+            <Node name="FitMe.Domain" expanded="True" />
+            <Node name="FitMe.Infrastructure" expanded="True" />
+            <Node name="FitMe.StartUp" expanded="True" />
+          </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FitMe.Infrastructure PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -7,9 +7,9 @@ namespace FitMe.Domain.Exercising.Specifications.Exercises
 {
     public class ExerciseByMuscleSpecification : Specification<Exercise>
     {
-        private readonly string muscle;
+        private readonly string? muscle;
 
-        public ExerciseByMuscleSpecification(string muscle)
+        public ExerciseByMuscleSpecification(string? muscle)
            => this.muscle = muscle;
 
         protected override bool Include => this.muscle != null;

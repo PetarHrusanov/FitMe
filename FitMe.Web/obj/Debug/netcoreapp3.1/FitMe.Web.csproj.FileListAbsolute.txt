@@ -1,0 +1,17 @@
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/FitMe.Web.deps.json
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/FitMe.Web.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/FitMe.Web.pdb
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/FitMe.Application.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/FitMe.Domain.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/FitMe.Application.pdb
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/bin/Debug/netcoreapp3.1/FitMe.Domain.pdb
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/Debug/netcoreapp3.1/FitMe.Web.csprojAssemblyReference.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/Debug/netcoreapp3.1/FitMe.Web.AssemblyInfoInputs.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/Debug/netcoreapp3.1/FitMe.Web.AssemblyInfo.cs
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/Debug/netcoreapp3.1/FitMe.Web.csproj.CoreCompileInputs.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/Debug/netcoreapp3.1/FitMe.Web.csproj.CopyComplete
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/Debug/netcoreapp3.1/FitMe.Web.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Web/obj/Debug/netcoreapp3.1/FitMe.Web.pdb

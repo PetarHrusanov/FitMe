@@ -7,9 +7,9 @@ namespace FitMe.Domain.Exercising.Specifications.Exercises
 {
     public class ExerciseByComplexitySpecification : Specification<Exercise>
     {
-        private readonly Complexity complexity;
+        private readonly Complexity? complexity;
 
-        public ExerciseByComplexitySpecification(Complexity complexity)
+        public ExerciseByComplexitySpecification(Complexity? complexity)
            => this.complexity = complexity;
 
         protected override bool Include => this.complexity != null;

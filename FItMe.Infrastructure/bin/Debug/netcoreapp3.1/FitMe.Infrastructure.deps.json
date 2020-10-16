@@ -48,11 +48,11 @@
           }
         }
       },
-      "Bogus/31.0.2": {
+      "Bogus/29.0.2": {
         "runtime": {
           "lib/netstandard2.0/Bogus.dll": {
-            "assemblyVersion": "31.0.2.0",
-            "fileVersion": "31.0.2.0"
+            "assemblyVersion": "29.0.2.0",
+            "fileVersion": "29.0.2.0"
           }
         }
       },
@@ -76,14 +76,14 @@
           }
         }
       },
-      "FakeItEasy/6.2.1": {
+      "FakeItEasy/6.0.1": {
         "dependencies": {
           "Castle.Core": "4.3.1"
         },
         "runtime": {
           "lib/netstandard2.1/FakeItEasy.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.1.0"
+            "fileVersion": "6.0.1.0"
           }
         }
       },
@@ -253,7 +253,7 @@
           "Microsoft.EntityFrameworkCore.Abstractions": "3.1.4",
           "Microsoft.EntityFrameworkCore.Analyzers": "3.1.4",
           "Microsoft.Extensions.Caching.Memory": "3.1.4",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection": "3.1.4",
           "Microsoft.Extensions.Logging": "3.1.4",
           "System.Collections.Immutable": "1.7.1",
           "System.ComponentModel.Annotations": "4.7.0",
@@ -384,14 +384,14 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.8": {
+      "Microsoft.Extensions.DependencyInjection/3.1.4": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42004"
+            "assemblyVersion": "3.1.4.0",
+            "fileVersion": "3.100.420.21409"
           }
         }
       },
@@ -447,7 +447,7 @@
       "Microsoft.Extensions.Logging/3.1.4": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection": "3.1.4",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.4",
           "Microsoft.Extensions.Options": "3.1.8"
         },
@@ -1017,7 +1017,7 @@
           }
         }
       },
-      "Scrutor/3.2.2": {
+      "Scrutor/3.2.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
           "Microsoft.Extensions.DependencyModel": "2.1.0"
@@ -1941,14 +1941,15 @@
       },
       "FitMe.Domain/1.0.0": {
         "dependencies": {
-          "Bogus": "31.0.2",
-          "FakeItEasy": "6.2.1",
+          "Bogus": "29.0.2",
+          "FakeItEasy": "6.0.1",
           "FakeItEasy.Analyzer.CSharp": "6.0.0",
           "FluentAssertions": "5.10.3",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection": "3.1.4",
           "Microsoft.NET.Test.Sdk": "16.7.1",
-          "Scrutor": "3.2.2",
-          "xunit": "2.4.1"
+          "Scrutor": "3.2.1",
+          "xunit": "2.4.1",
+          "xunit.runner.visualstudio": "2.4.1"
         },
         "runtime": {
           "FitMe.Domain.dll": {}
@@ -1976,12 +1977,12 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/8.0.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512"
     },
-    "Bogus/31.0.2": {
+    "Bogus/29.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ij7z2K40b6NV7LarcNuGFH11qrf5r98Eka4roA+16JB9KQIb3yhgjH2ojt1YhJFbAR7kubBU9rj+CooYYBsecg==",
-      "path": "bogus/31.0.2",
-      "hashPath": "bogus.31.0.2.nupkg.sha512"
+      "sha512": "sha512-rrKyfSWt/eFj6k1JnvapMPfxmoQmo0y/9AK596kCm7sbmTxGq7j2iFVBNAFY3eXS0GCsdoI8vFgyxgQRWLjh3A==",
+      "path": "bogus/29.0.2",
+      "hashPath": "bogus.29.0.2.nupkg.sha512"
     },
     "Castle.Core/4.3.1": {
       "type": "package",
@@ -1990,12 +1991,12 @@
       "path": "castle.core/4.3.1",
       "hashPath": "castle.core.4.3.1.nupkg.sha512"
     },
-    "FakeItEasy/6.2.1": {
+    "FakeItEasy/6.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P59iQmxR4Ms9kizyWUQ39i7PASmecjogdEGB/5MO/kZhj48bytSrJ1NAnbWJolpXMA5nOOadXRypWi62kkyfaQ==",
-      "path": "fakeiteasy/6.2.1",
-      "hashPath": "fakeiteasy.6.2.1.nupkg.sha512"
+      "sha512": "sha512-J1uzFg3y6+T8LLgsQkL0NdAbs4jvtoWd5u8RM8miGbKaDRV81WI51C5igck4TC6Vzft9eJE5BoqrnUS22HU/9A==",
+      "path": "fakeiteasy/6.0.1",
+      "hashPath": "fakeiteasy.6.0.1.nupkg.sha512"
     },
     "FakeItEasy.Analyzer.CSharp/6.0.0": {
       "type": "package",
@@ -2193,12 +2194,12 @@
       "path": "microsoft.extensions.configuration.binder/3.1.8",
       "hashPath": "microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.8": {
+    "Microsoft.Extensions.DependencyInjection/3.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tUpYcVxFqwh8wVD8O+6A8gJnVtl6L4N1Vd9bLJgQSJ0gjBTUQ/eKwJn0LglkkaDU7GAxODDv4eexgZn3QSE0NQ==",
-      "path": "microsoft.extensions.dependencyinjection/3.1.8",
-      "hashPath": "microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512"
+      "sha512": "sha512-dAWhz6BEjUFIVLUPbT1s1sUrPTwbUWdw2iBRRe3ej3xXcKS+oo64dKrIWFxRjYP6TWyESpGFNY5NGeA5FcHVlg==",
+      "path": "microsoft.extensions.dependencyinjection/3.1.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.8": {
       "type": "package",
@@ -2515,12 +2516,12 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
-    "Scrutor/3.2.2": {
+    "Scrutor/3.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hrLaSPxA2HX8lfwwxatSlWWDFAEHK6gG5Jdkg9fOBPY0eMf+eH2ep6g64fq+kXQkVoN3FrDm0wtHDoV1N7QU5Q==",
-      "path": "scrutor/3.2.2",
-      "hashPath": "scrutor.3.2.2.nupkg.sha512"
+      "sha512": "sha512-MXE+dFmrgrQ+313j82ggG99g65X+xHbsh7uawICPwaVUQcYUJXX3KQPeOWfz42rOo2CNeQ0DPi8g6aqMrM4Ufg==",
+      "path": "scrutor/3.2.1",
+      "hashPath": "scrutor.3.2.1.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

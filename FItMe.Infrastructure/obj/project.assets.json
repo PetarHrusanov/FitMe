@@ -29,7 +29,7 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "Bogus/31.0.2": {
+      "Bogus/29.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Bogus.dll": {}
@@ -59,7 +59,7 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
-      "FakeItEasy/6.2.1": {
+      "FakeItEasy/6.0.1": {
         "type": "package",
         "dependencies": {
           "Castle.Core": "4.3.1"
@@ -423,10 +423,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.8": {
+      "Microsoft.Extensions.DependencyInjection/3.1.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -1237,7 +1237,7 @@
           }
         }
       },
-      "Scrutor/3.2.2": {
+      "Scrutor/3.2.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
@@ -2734,7 +2734,7 @@
       },
       "FitMe.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "FitMe.Domain": "1.0.0",
@@ -2751,16 +2751,17 @@
       },
       "FitMe.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Bogus": "31.0.2",
-          "FakeItEasy": "6.2.1",
+          "Bogus": "29.0.2",
+          "FakeItEasy": "6.0.1",
           "FakeItEasy.Analyzer.CSharp": "6.0.0",
           "FluentAssertions": "5.10.3",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection": "3.1.4",
           "Microsoft.NET.Test.Sdk": "16.7.1",
-          "Scrutor": "3.2.2",
-          "xunit": "2.4.1"
+          "Scrutor": "3.2.1",
+          "xunit": "2.4.1",
+          "xunit.runner.visualstudio": "2.4.1"
         },
         "compile": {
           "bin/placeholder/FitMe.Domain.dll": {}
@@ -2801,14 +2802,14 @@
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
-    "Bogus/31.0.2": {
-      "sha512": "Ij7z2K40b6NV7LarcNuGFH11qrf5r98Eka4roA+16JB9KQIb3yhgjH2ojt1YhJFbAR7kubBU9rj+CooYYBsecg==",
+    "Bogus/29.0.2": {
+      "sha512": "rrKyfSWt/eFj6k1JnvapMPfxmoQmo0y/9AK596kCm7sbmTxGq7j2iFVBNAFY3eXS0GCsdoI8vFgyxgQRWLjh3A==",
       "type": "package",
-      "path": "bogus/31.0.2",
+      "path": "bogus/29.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bogus.31.0.2.nupkg.sha512",
+        "bogus.29.0.2.nupkg.sha512",
         "bogus.nuspec",
         "lib/net40/Bogus.dll",
         "lib/net40/Bogus.xml",
@@ -2843,14 +2844,14 @@
         "readme.txt"
       ]
     },
-    "FakeItEasy/6.2.1": {
-      "sha512": "P59iQmxR4Ms9kizyWUQ39i7PASmecjogdEGB/5MO/kZhj48bytSrJ1NAnbWJolpXMA5nOOadXRypWi62kkyfaQ==",
+    "FakeItEasy/6.0.1": {
+      "sha512": "J1uzFg3y6+T8LLgsQkL0NdAbs4jvtoWd5u8RM8miGbKaDRV81WI51C5igck4TC6Vzft9eJE5BoqrnUS22HU/9A==",
       "type": "package",
-      "path": "fakeiteasy/6.2.1",
+      "path": "fakeiteasy/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fakeiteasy.6.2.1.nupkg.sha512",
+        "fakeiteasy.6.0.1.nupkg.sha512",
         "fakeiteasy.nuspec",
         "images/FakeItEasy.png",
         "lib/net40/FakeItEasy.dll",
@@ -3455,10 +3456,10 @@
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.8": {
-      "sha512": "tUpYcVxFqwh8wVD8O+6A8gJnVtl6L4N1Vd9bLJgQSJ0gjBTUQ/eKwJn0LglkkaDU7GAxODDv4eexgZn3QSE0NQ==",
+    "Microsoft.Extensions.DependencyInjection/3.1.4": {
+      "sha512": "dAWhz6BEjUFIVLUPbT1s1sUrPTwbUWdw2iBRRe3ej3xXcKS+oo64dKrIWFxRjYP6TWyESpGFNY5NGeA5FcHVlg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.1.8",
+      "path": "microsoft.extensions.dependencyinjection/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3471,7 +3472,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
@@ -4438,10 +4439,10 @@
         "version.txt"
       ]
     },
-    "Scrutor/3.2.2": {
-      "sha512": "hrLaSPxA2HX8lfwwxatSlWWDFAEHK6gG5Jdkg9fOBPY0eMf+eH2ep6g64fq+kXQkVoN3FrDm0wtHDoV1N7QU5Q==",
+    "Scrutor/3.2.1": {
+      "sha512": "MXE+dFmrgrQ+313j82ggG99g65X+xHbsh7uawICPwaVUQcYUJXX3KQPeOWfz42rOo2CNeQ0DPi8g6aqMrM4Ufg==",
       "type": "package",
-      "path": "scrutor/3.2.2",
+      "path": "scrutor/3.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4451,7 +4452,7 @@
         "lib/netstandard2.0/Scrutor.dll",
         "lib/netstandard2.0/Scrutor.pdb",
         "lib/netstandard2.0/Scrutor.xml",
-        "scrutor.3.2.2.nupkg.sha512",
+        "scrutor.3.2.1.nupkg.sha512",
         "scrutor.nuspec"
       ]
     },
