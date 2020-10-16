@@ -1,0 +1,13 @@
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/obj/Debug/netstandard2.1/FitMe.Domain.csprojAssemblyReference.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/obj/Debug/netstandard2.1/FitMe.Domain.AssemblyInfoInputs.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/obj/Debug/netstandard2.1/FitMe.Domain.AssemblyInfo.cs
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/obj/Debug/netstandard2.1/FitMe.Domain.csproj.CoreCompileInputs.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/bin/Debug/netstandard2.1/xunit.runner.visualstudio.testadapter.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/bin/Debug/netstandard2.1/xunit.runner.reporters.net452.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/bin/Debug/netstandard2.1/xunit.runner.utility.net452.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/bin/Debug/netstandard2.1/xunit.abstractions.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/bin/Debug/netstandard2.1/FitMe.Domain.deps.json
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/bin/Debug/netstandard2.1/FitMe.Domain.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/bin/Debug/netstandard2.1/FitMe.Domain.pdb
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/obj/Debug/netstandard2.1/FitMe.Domain.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Domain/obj/Debug/netstandard2.1/FitMe.Domain.pdb

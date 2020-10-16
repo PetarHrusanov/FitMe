@@ -1,4 +1,4 @@
-﻿namespace FItMe.Infrastructure.Common.Persistence
+﻿namespace FitMe.Infrastructure.Common.Persistence
 {
     using System;
     using System.Collections.Generic;
@@ -11,9 +11,9 @@
     using FitMe.Domain.Exercising.Models.Instructors;
     using FitMe.Domain.Statistics.Models;
     using FitMe.Infrastructure.Common.Events;
+    using FitMe.Infrastructure.Exercise;
     using FitMe.Infrastructure.Identity;
     using FitMe.Infrastructure.Statistics;
-    using FItMe.Infrastructure.Exercise;
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
 

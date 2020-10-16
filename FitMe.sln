@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitMe.Application", "FitMe.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitMe.Domain", "FitMe.Domain\FitMe.Domain.csproj", "{CBFE1185-015B-41A8-AF6A-7C22A3695005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FItMe.Infrastructure", "FItMe.Infrastructure\FItMe.Infrastructure.csproj", "{908DC440-C90B-43C0-994F-46533A26C75C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitMe.Infrastructure", "FitMe.Infrastructure\FitMe.Infrastructure.csproj", "{908DC440-C90B-43C0-994F-46533A26C75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitMe.Web", "FitMe.Web\FitMe.Web.csproj", "{6522EF0D-9E20-43C9-8411-6F360F2B0923}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,5 +33,9 @@ Global
 		{908DC440-C90B-43C0-994F-46533A26C75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908DC440-C90B-43C0-994F-46533A26C75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908DC440-C90B-43C0-994F-46533A26C75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6522EF0D-9E20-43C9-8411-6F360F2B0923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6522EF0D-9E20-43C9-8411-6F360F2B0923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6522EF0D-9E20-43C9-8411-6F360F2B0923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6522EF0D-9E20-43C9-8411-6F360F2B0923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

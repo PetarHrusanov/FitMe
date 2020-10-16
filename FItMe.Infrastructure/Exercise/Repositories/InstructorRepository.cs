@@ -1,4 +1,4 @@
-﻿namespace FItMe.Infrastructure.Exercise.Repositories
+﻿namespace FitMe.Infrastructure.Exercise.Repositories
 {
     using System;
     using System.Linq;

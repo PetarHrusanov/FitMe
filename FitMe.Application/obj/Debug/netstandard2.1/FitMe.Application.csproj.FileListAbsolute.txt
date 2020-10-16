@@ -1,0 +1,16 @@
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/FitMe.Application.deps.json
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/FitMe.Application.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/FitMe.Application.pdb
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/Debug/netstandard2.1/FitMe.Application.csprojAssemblyReference.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/Debug/netstandard2.1/FitMe.Application.AssemblyInfoInputs.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/Debug/netstandard2.1/FitMe.Application.AssemblyInfo.cs
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/Debug/netstandard2.1/FitMe.Application.csproj.CoreCompileInputs.cache
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/Debug/netstandard2.1/FitMe.Application.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/Debug/netstandard2.1/FitMe.Application.pdb
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/xunit.runner.visualstudio.testadapter.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/xunit.runner.reporters.net452.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/xunit.runner.utility.net452.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/xunit.abstractions.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/FitMe.Domain.dll
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/bin/Debug/netstandard2.1/FitMe.Domain.pdb
+/Users/Petar/Documents/Documents – Petar’s MacBook Pro/Programiranka/C#/Domain Driven Design/FitMe/FitMe.Application/obj/Debug/netstandard2.1/FitMe.Application.csproj.CopyComplete

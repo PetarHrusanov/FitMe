@@ -1,4 +1,4 @@
-﻿namespace FItMe.Infrastructure.Exercise
+﻿namespace FitMe.Infrastructure.Exercise
 {
     using FitMe.Domain.Exercising.Models.Exercises;
     using FitMe.Domain.Exercising.Models.Instructors;

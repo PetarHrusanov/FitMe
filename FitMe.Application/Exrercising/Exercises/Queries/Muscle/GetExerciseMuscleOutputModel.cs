@@ -4,7 +4,7 @@
     using FitMe.Application.Common.Mapping;
     using Domain.Exercising.Models.Exercises;
 
-    public class GetExerciseMuscleQuery : IMapFrom<Muscle>
+    public class GetExerciseMuscleOutputModel : IMapFrom<Muscle>
     {
         public int Id { get; private set; }
 

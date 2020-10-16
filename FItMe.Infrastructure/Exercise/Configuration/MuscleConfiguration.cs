@@ -1,4 +1,4 @@
-﻿namespace FItMe.Infrastructure.Exercise.Configuration
+﻿namespace FitMe.Infrastructure.Exercise.Configuration
 {
     using FitMe.Domain.Exercising.Models.Exercises;
     using Microsoft.EntityFrameworkCore;

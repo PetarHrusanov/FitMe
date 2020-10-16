@@ -53,7 +53,7 @@
                     .WithPhoneNumber(request.PhoneNumber)
                     .Build();
 
-                user.BecomeIsntructor(instructor);
+                user.BecomeInstructor(instructor);
 
                 await this.instructorRepository.Save(instructor, cancellationToken);
 

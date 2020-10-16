@@ -24,8 +24,8 @@
 
         Task<ExerciseDetailsOutputModel> GetDetails(int id, CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<GetExerciseMuscleQuery>> GetExercisesMuscle(
-            string muscleName,
+        Task<IEnumerable<GetExerciseMuscleOutputModel>> GetExercisesMuscle(
+            //string muscleName,
             CancellationToken cancellationToken = default);
 
         Task<int> Total(

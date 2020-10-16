@@ -1,4 +1,4 @@
-﻿namespace FItMe.Infrastructure.Statistics.Configuration
+﻿namespace FitMe.Infrastructure.Statistics.Configuration
 {
     using System;
     using FitMe.Domain.Statistics.Models;

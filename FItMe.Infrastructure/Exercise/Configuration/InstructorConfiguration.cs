@@ -1,4 +1,4 @@
-﻿namespace FItMe.Infrastructure.Exercise.Configuration
+﻿namespace FitMe.Infrastructure.Exercise.Configuration
 {
     using FitMe.Domain.Exercising.Models.Instructors;
     using Microsoft.EntityFrameworkCore;
@@ -22,7 +22,6 @@
 
             builder
                 .Property(d => d.Description)
-                .IsRequired()
                 .HasMaxLength(MaxDescriptionLength);
 
             builder

@@ -1,0 +1,31 @@
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{41F6AEFE-A2E0-40EE-BF7A-2C82AADA9BC9}|FitMe">
+  <MonoDevelop.Ide.ItemProperties.FitMe.StartUp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FitMe.StartUp/Program.cs">
+    <Files>
+      <File FileName="FitMe.Web/Features/ExercisesController.cs" Line="62" Column="22" />
+      <File FileName="FitMe.Infrastructure/Exercise/Repositories/ExerciseRepository.cs" Line="110" Column="35" />
+      <File FileName="FitMe.Web/FitMe.Web.csproj" Line="16" Column="55" />
+      <File FileName="FitMe.StartUp/Startup.cs" Line="1" Column="1" />
+      <File FileName="FitMe.StartUp/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FitMe" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{41F6AEFE-A2E0-40EE-BF7A-2C82AADA9BC9}" ItemName="FitMe.StartUp" ConfigurationId="FitMe" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

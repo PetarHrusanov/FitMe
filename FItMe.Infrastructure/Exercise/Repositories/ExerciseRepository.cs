@@ -1,4 +1,4 @@
-﻿namespace FItMe.Infrastructure.Exercise.Repositories
+﻿namespace FitMe.Infrastructure.Exercise.Repositories
 {
     using System;
     using FitMe.Infrastructure.Common.Persistence;
@@ -80,13 +80,36 @@
                        .Where(c => c.Id == id))
                    .FirstOrDefaultAsync(cancellationToken);
 
-        public async Task<IEnumerable<GetExerciseMuscleQuery>> GetExercisesMuscle(
-            string muscleName,
+        //public async Task<IEnumerable<GetExerciseMuscleOutputModel>> GetExercisesMuscle(
+        //    //string muscleName,
+        //    CancellationToken cancellationToken = default)
+        //    => (IEnumerable<GetExerciseMuscleOutputModel>)await this
+        //           .Data
+        //           .Muscles
+
+        //           .FirstOrDefaultAsync(m => m.Name == muscleName, cancellationToken);
+
+        public async Task<IEnumerable<GetExerciseMuscleOutputModel>> GetExercisesMuscle(
             CancellationToken cancellationToken = default)
-            => (IEnumerable<GetExerciseMuscleQuery>)await this
-                   .Data
-                   .Muscles
-                   .FirstOrDefaultAsync(m => m.Name == muscleName, cancellationToken);
+        {
+            var muscles = await this.mapper
+                .ProjectTo<GetExerciseMuscleOutputModel>(this.Data.Muscles)
+                .ToDictionaryAsync(k => k.Id, cancellationToken);
+
+            var exercisesPerMuscle = await this.All()
+                .GroupBy(c => c.Muscle.Id)
+                .Select(gr => new
+                {
+                    MusleId = gr.Key,
+                    TotalExercises = gr.Count()
+                })
+                .ToListAsync(cancellationToken);
+
+            exercisesPerMuscle.ForEach(c => muscles[c.MusleId].TotalExercises = c.TotalExercises);
+
+            return muscles.Values;
+        }
+
 
         public async Task<int> Total(
             Specification<Exercise> exerciseSpecification,
